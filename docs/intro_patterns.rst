@@ -68,7 +68,7 @@ Ansible同时也支持通配和groups的混合使用::
 
 或者一个group中的一部分servers::
 
-    webservers[0-25]
+    webservers[0:25]
 
 大部分人都在patterns应用正则表达式,但你可以.只需要以 '~' 开头即可::
 
